@@ -1,0 +1,51 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="110" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="14">
+            <item index="0" class="java.lang.String" itemvalue="Django" />
+            <item index="1" class="java.lang.String" itemvalue="potlako-prn" />
+            <item index="2" class="java.lang.String" itemvalue="potlako-visit-schedule" />
+            <item index="3" class="java.lang.String" itemvalue="potlako-dashboard" />
+            <item index="4" class="java.lang.String" itemvalue="potlako-metadata-rules" />
+            <item index="5" class="java.lang.String" itemvalue="potlako-validations" />
+            <item index="6" class="java.lang.String" itemvalue="potlako-reference" />
+            <item index="7" class="java.lang.String" itemvalue="pandas" />
+            <item index="8" class="java.lang.String" itemvalue="django-crispy-forms" />
+            <item index="9" class="java.lang.String" itemvalue="setuptools" />
+            <item index="10" class="java.lang.String" itemvalue="djang-crypto-fields" />
+            <item index="11" class="java.lang.String" itemvalue="django-jazzmin" />
+            <item index="12" class="java.lang.String" itemvalue="edc-crypto-fields" />
+            <item index="13" class="java.lang.String" itemvalue="edc-document-archieve-api" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="SERVER PROBLEM" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="trainee_validations.trainee_validations.form_validators" />
+          <option value="app_config" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
